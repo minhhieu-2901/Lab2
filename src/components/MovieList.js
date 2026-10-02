@@ -23,10 +23,10 @@ function MovieList({
       <div>
         <div className="movie-list-heading" role="row">
           <p>Tên phim</p>
-          <span>Thể loại</span>
-          <span>Năm</span>
-          <span>Rating</span>
-          <span>Thao tác</span>
+          <p>Thể loại</p>
+          <p>Năm</p>
+          <p>Rating</p>
+          <p>Thao tác</p>
         </div>
         {movies.length ? (
           movies.map((movie) => (
